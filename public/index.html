@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="QuestionApp">
+  <head>
+    <meta charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-route.js"></script>
+    <script src="app.js"> </script>
+    <link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <a href="#/">Game</a>
+    <a href="#/Gameover">Gameover</a>
+    <div class="topContainer">
+      <div id = "valueBox"class="valueBox"></div>
+    <button class = "up">Up a point</button>
+    <button class = "down">down a point</button>
+
+    </div>
+    <main ng-view></main>
+
+
+  </body>
+</html>

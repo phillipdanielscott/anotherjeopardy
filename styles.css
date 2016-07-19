@@ -1,0 +1,109 @@
+body{
+  background-color: #FEFBF7;
+
+}
+.question1{
+  background-color: black;
+  color: white;
+  width: 50%;
+  border: 2px solid black;
+  display: inline-block;
+  height: 100px;
+}
+.question2{
+  background-color: black;
+  color: white;
+  width: 50%;
+  border: 2px solid black;
+  display: inline-block;
+  height: 100px;
+}
+.question3{
+  background-color: black;
+  color: white;
+  width: 50%;
+  border: 2px solid black;
+  display: inline-block;
+  height: 100px;
+}
+.question4{
+  background-color: black;
+  color: white;
+  width: 50%;
+  border: 2px solid black;
+  display: inline-block;
+  height: 100px;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin: 4px;
+
+}
+h1{
+      font-size: 23px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  border: 2px solid black;
+width: 200px;
+margin: 4px;
+margin-left: 102px;
+overflow: scroll;
+}
+.mainContainer1{
+  margin-top: 17px;
+  margin-left: 72px;
+  width: 41%;
+  height: 193px;
+  text-align: center;
+  display: inline-block;
+  overflow: hidden;
+
+}
+.button.-dark {
+  color: snow;
+  background: dark;
+}
+
+.value{
+  border: 2px solid black;
+width: 50%;
+text-align: center;
+position: relative;
+right: -101px;
+}
+
+.topContainer{
+  position: relative;
+right: -37%;
+}
+
+.valueBox{
+border: 2px solid black;
+width: 6%;
+height: 20px;
+}
+
+
+.question1:hover {
+    background-color: purple;
+}
+
+
+
+.mainContainer2{
+  margin-left: 72px;
+  width: 41%;
+height: 235px;
+text-align: center;
+  display: inline-block;
+  overflow: scroll;
+}
+.question1{
+  overflow: scroll;
+
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+
+}

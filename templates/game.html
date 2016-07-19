@@ -1,0 +1,18 @@
+<h2>PICK YOUR CATEGORY // CLICK TO SEE ANSWER</h2>
+
+
+<div class="mainContainer1" ng-repeat = "question in questions">
+<h1>{{question.category.title}}</h1>
+<!-- <div class="value">value:{{question.value}}</div> -->
+<div class="question1">
+  <p ng-hide="showme">{{question.question}}</p>
+  <p ng-show="showme">{{question.answer}}</p>
+  <button ng-click = "showme=true" class='button -dark center'>show me the money!</button>
+  <button class='button -dark center' ng-click = "showme=false" >hide it</button>
+  <!-- <button ng-click = "showme=" class='button -dark center'>hide the answer!</button> -->
+</div>
+</div>
+
+
+ <!-- <button class='button -dark center' ng-click = "showme=true" >show me the money!</button>
+ <button class='button -dark center' ng-click = "showme=false" >hide it</button> -->
